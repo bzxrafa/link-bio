@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Enlaces</title>
+    <style>
+        body {
+            background-color: #f4f4f6;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: block;
+            background: white;
+            color: #333;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: 0.2s;
+        }
+        .btn:hover {
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Hola! 👋</h1>
+        <p>Bienvenidos a mis enlaces</p>
+        
+        <a href="https://instagram.com" class="btn" target="_blank">Instagram</a>
+        <a href="https://tiktok.com" class="btn" target="_blank">TikTok</a>
+        <a href="https://open.spotify.com" class="btn" target="_blank">Spotify</a>
+    </div>
+</body>
+</html>
